@@ -1,5 +1,4 @@
 
-
 import {
   AboutContainer, 
   UserProfileContent,
@@ -10,25 +9,30 @@ import {
   AboutContent
 } from './styles'
 
+import SquareIcon from '../../assets/square.svg';
+
 export function About() {
   return(
     <AboutContainer>
       <UserProfileContent>
+        <div>
           <Avatar>
             <img src="https://github.com/raphaelgregg.png" />
           </Avatar>
 
           <h2>Raphael Gregg</h2>
 
-          <div>
+          <div className='wrapper-icon'>
             <MailIcon />
-            <LinkinIcon />
             <GitIcon />
+            <LinkinIcon />
           </div>
+        </div>
       </UserProfileContent>
       
       <AboutContent>
-        <h2>Sobre</h2>
+        <h2><img src={SquareIcon} /> Sobre</h2>
+        <h3>Conheça um pouco sobre mim</h3>
         <p>
         Desenvolvedor especializando-se em desenvolvimento web e mobile
         com experiência em projetos freelancer e cursos, possuo sólida

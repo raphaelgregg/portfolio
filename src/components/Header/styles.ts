@@ -28,8 +28,10 @@ export const HeaderContainer = styled.header`
       border-bottom: 3px solid transparent;
       border-radius: 2px;
 
+      transition: 0.3s;
+
       &:hover {
-      border-bottom: 3px solid${({theme}) => theme.COLORS.BLUE_500};        
+      border-bottom: 3px solid${({theme}) => theme.COLORS.BLUE_500};     
       }
     }
   }

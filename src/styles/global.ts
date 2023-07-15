@@ -17,4 +17,17 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 ${({theme}) => theme.COLORS.GREY_900};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({theme}) => theme.COLORS.BLUE_500};
+    border-radius: 10px;
+  }
 `;
