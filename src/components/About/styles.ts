@@ -9,8 +9,8 @@ export const AboutContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
-
-  margin-top: 6rem;
+    
+  /* background-color: ${({theme}) => theme.COLORS.GREEN_500}; */
 `;
 
 export const UserProfileContent = styled.div`
@@ -19,7 +19,7 @@ export const UserProfileContent = styled.div`
   justify-content: flex-start;
   flex-direction: column;
 
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 
   div {
     display: flex;
@@ -38,7 +38,7 @@ export const UserProfileContent = styled.div`
 `;
 
 export const Avatar = styled.div`
-  border: 6px solid ${({theme}) => theme.COLORS.BLUE_500};
+  border: 4px solid ${({theme}) => theme.COLORS.BLUE_500};
   border-radius: 100%;
 
   padding: 0.5rem;

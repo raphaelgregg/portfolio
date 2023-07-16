@@ -10,9 +10,13 @@ export const HeaderContainer = styled.header`
     width: 12rem;
   }
 
-  nav {
+  ul {
     display: flex;
     gap: 6rem;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
     a {
       width: 100%;

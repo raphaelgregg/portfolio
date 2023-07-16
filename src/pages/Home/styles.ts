@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+`;
+
+export const DefaultWrapper = styled.div`
+    padding: 3rem 7rem;
+`;
+export const AboutWrapper = styled.div`
+    background-color: ${({theme}) => theme.COLORS.GREEN_500};
     padding: 3rem 7rem;
 `;
 
-export const CoverContainer = styled.div`
-    /* background: radial-gradient(circle, rgba(60,74,89,1) 12%, rgba(32,39,51,1) 86%); */
+export const HomeContainer = styled.div`
     display: flex;
     justify-content: space-between;
     
@@ -44,9 +50,10 @@ export const CoverContainer = styled.div`
             font-size: 1.5rem;;
 
             
-            :hover {
+            &:hover {
                 background-color: ${({theme}) => theme.COLORS.BLUE_500};
-                transition: .3s;
+                color: ${({theme}) => theme.COLORS.GREY_900};
+                transition: .8s;
             }
         }
     }
@@ -58,6 +65,5 @@ export const CoverContainer = styled.div`
         margin-top: 4rem;
     }
 
-    margin-bottom: 20rem;
-
+    margin-bottom: 4rem;
 `;

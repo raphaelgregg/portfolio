@@ -7,8 +7,12 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    background-color: ${({theme}) => theme.COLORS.GREEN_900};
+    background-color: ${({theme}) => theme.COLORS.GREEN_800};
     color: #f5f5f5;
   }
 
@@ -16,6 +20,15 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
   }
 
   ::-webkit-scrollbar {

@@ -11,7 +11,7 @@ export const FooterContainer = styled.header`
 
   margin-top: 3rem;
 
-  background-color:  ${({theme}) => theme.COLORS.GREEN_800};
+  background-color:  ${({theme}) => theme.COLORS.GREEN_900};
 
   border-bottom: 3px solid ${({theme}) => theme.COLORS.BLUE_500}
 `;

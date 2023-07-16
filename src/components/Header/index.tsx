@@ -6,12 +6,12 @@ export function Header() {
     <HeaderContainer>
       <img src={brandIcon} />
 
-      <nav>
-        <a>Sobre</a>
-        <a>Skills</a>
-        <a>Laboratório</a>
-        <a>Contato</a>
-      </nav>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#laboratory">Laboratório</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </HeaderContainer>
   )
 }
