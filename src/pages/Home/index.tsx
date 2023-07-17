@@ -12,6 +12,7 @@ import { Contact } from '../../components/Contact'
 
 import devIcon from '../../assets/dev-icon.svg'
 export function Home(){
+  
   return(
     <Container>
       <DefaultWrapper id="home">
@@ -27,16 +28,16 @@ export function Home(){
         </HomeContainer>
       </DefaultWrapper>
 
-      <AboutWrapper id="about">
+      <AboutWrapper id="about" >
         <About />
       </AboutWrapper>
 
       <DefaultWrapper id="skills">
         <Skills />
+        <Laboratory />
       </DefaultWrapper>
 
       <DefaultWrapper id="laboratory">
-        <Laboratory />
       </DefaultWrapper>
 
       <DefaultWrapper id="contact">

@@ -8,9 +8,11 @@ import {
 export const AboutContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;
-    
+  grid-gap: 2rem;    
   /* background-color: ${({theme}) => theme.COLORS.GREEN_500}; */
+
+  background-color: ${({theme}) => theme.COLORS.GREEN_500};
+  padding: 3rem 7rem;
 `;
 
 export const UserProfileContent = styled.div`

@@ -1,7 +1,7 @@
 import { SkillsContainer } from "./styles";
 
 import SquareIcon from '../../assets/square.svg';
-import { Skill } from "../Skill";
+import { Skill } from "../SkillCard";
 
 export function Skills() {
   return(

@@ -12,7 +12,7 @@ import SquareIcon from '../../assets/square.svg';
 
 export function About() {
   return(
-    <AboutContainer>
+    <AboutContainer >
       <UserProfileContent>
         <div>
           <Avatar>
