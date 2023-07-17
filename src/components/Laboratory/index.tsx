@@ -1,11 +1,20 @@
 import { LaboratoryContainer } from "./styles";
 
 import SquareIcon from '../../assets/square.svg';
+import { LaboratoryCard } from "../LaboratoryCard";
 
 export function Laboratory() {
   return(
     <LaboratoryContainer>
-      <h2><img src={SquareIcon}/> Laboratório</h2>
+      <header>
+        <h2><img src={SquareIcon}/> Laboratório</h2>
+      </header>
+
+      <div>
+        <LaboratoryCard />
+        <LaboratoryCard />
+        <LaboratoryCard />
+      </div>
     </LaboratoryContainer>
   );
 }

@@ -6,7 +6,7 @@ import {
 } from './styles';
 
 import { About } from '../../components/About'
-import { Skills } from '../../components/Skills';
+import { Skills } from '../../components/Skill';
 import { Laboratory } from '../../components/Laboratory';
 import { Contact } from '../../components/Contact'
 
