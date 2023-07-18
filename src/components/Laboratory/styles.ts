@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const LaboratoryContainer = styled.div`
-    position: relative;
 
     img {
       width: .75rem;
@@ -16,9 +15,13 @@ export const LaboratoryContainer = styled.div`
       font-weight: 500;
       margin-bottom: 3rem;
     }
-    
-    div {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+`;
+
+export const LaboratoryListCad = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  grid-gap: 1rem;
+
+  align-items: center;
+  justify-content: space-evenly;
 `;

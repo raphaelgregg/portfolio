@@ -6,8 +6,6 @@ interface SkillProps {
   alt?: string;
 }
 
-import reactIcon from '../../assets/reactjs.svg';
-
 export function Skill({title, icon, alt}: SkillProps) {
   return(
     <Container>

@@ -73,7 +73,6 @@ font-size: 2rem;
 
 export const AboutContent = styled.div`
   h2 {
-    display: relative;
     margin-bottom: 3rem;
     font-weight: 500;
 

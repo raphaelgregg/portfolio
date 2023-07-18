@@ -34,10 +34,10 @@ export function Home(){
 
       <DefaultWrapper id="skills">
         <Skills />
-        <Laboratory />
       </DefaultWrapper>
 
       <DefaultWrapper id="laboratory">
+        <Laboratory />
       </DefaultWrapper>
 
       <DefaultWrapper id="contact">

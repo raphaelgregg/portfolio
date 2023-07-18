@@ -9,6 +9,7 @@ import {
 } from './styles'
 
 import SquareIcon from '../../assets/square.svg';
+import { SectionTitle } from '../SectionTitle';
 
 export function About() {
   return(
@@ -39,6 +40,7 @@ export function About() {
       
       <AboutContent>
         <h2><img src={SquareIcon} /> Sobre</h2>
+        <SectionTitle title="Habilidades" />
         <h3>Conheça um pouco sobre mim</h3>
         <p>
         Desenvolvedor especializando-se em desenvolvimento web e mobile
