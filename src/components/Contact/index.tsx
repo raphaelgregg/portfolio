@@ -22,7 +22,7 @@ export function Contact() {
           <ContactWrapper>
             <div>
               <ContactIcon />
-              (91) 99272-0408
+              {/* (91) 99272-0408 */}
             </div>
             
             <div>
