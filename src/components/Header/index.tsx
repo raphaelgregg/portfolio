@@ -8,7 +8,7 @@ export function Header() {
 
       <ul>
         <li><a href="#about">Sobre</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#skill">Skills</a></li>
         <li><a href="#laboratory">Laboratório</a></li>
         <li><a href="#contact">Contato</a></li>
       </ul>

@@ -6,7 +6,7 @@ import {
 } from './styles';
 
 import { About } from '../../components/About'
-import { Skills } from '../../components/Skill';
+import { Skill } from '../../components/Skill';
 import { Laboratory } from '../../components/Laboratory';
 import { Contact } from '../../components/Contact'
 
@@ -32,8 +32,8 @@ export function Home(){
         <About />
       </AboutWrapper>
 
-      <DefaultWrapper id="skills">
-        <Skills />
+      <DefaultWrapper id="skill">
+        <Skill />
       </DefaultWrapper>
 
       <DefaultWrapper id="laboratory">

@@ -10,8 +10,8 @@ export function LaboratoryCard() {
       <div>
         <span>Javascript</span>
         <span>HTML</span>
-        <span>CSS</span>
         <span>Postgres</span>
+        <span>CSS</span>
       </div>
 
       <button>Acessar</button>

@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+type ContainerProps = {
+  positionAlignText?: 'start' | 'center' | 'end';
+}
+
+export const Container = styled.div<ContainerProps>`
+  display: flex;
+  justify-content: ${ props => props.positionAlignText};
 
   img {
-      width: .75rem;
-      margin-right: .8rem;
+    width: .75rem;
+    margin-right: .8rem;
   }
 
   h2 {

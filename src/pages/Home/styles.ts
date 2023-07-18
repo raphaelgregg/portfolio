@@ -4,9 +4,7 @@ export const Container = styled.div`
 `;
 
 export const DefaultWrapper = styled.div`
-    padding: 3rem 7rem;
-
-    height: 100vh;
+    padding: 5rem 7rem;
 `;
 export const AboutWrapper = styled.div`
     height: 100vh;

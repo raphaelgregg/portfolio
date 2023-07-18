@@ -72,13 +72,6 @@ font-size: 2rem;
 `;
 
 export const AboutContent = styled.div`
-  h2 {
-    margin-bottom: 3rem;
-    font-weight: 500;
-
-    display: flex;
-  }
-
   h3 {
     margin-bottom: 1.5rem;
     font-weight: 500;

@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
 
   h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-weight: 400;
-    margin-bottom: .5rem;
+    margin-bottom: .75rem;
   }
 
   img {

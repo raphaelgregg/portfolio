@@ -4,13 +4,13 @@ import SquareIcon from '../../assets/square.svg';
 
 interface SectionTitle {
   title: string;
-  align?: 'start' | 'center' | 'end';
+  positionAlignText?: 'start' | 'center' | 'end';
 }
 
-export function SectionTitle({title, align, ...rest}: SectionTitle) {
+export function SectionTitle({title, positionAlignText, ...rest}: SectionTitle) {
   return(
-    <Container {...rest}>
-      <h2 align={align}><img src={SquareIcon}/>{title}</h2>
+    <Container positionAlignText={positionAlignText} {...rest}>
+      <h2><img src={SquareIcon}/>{title}</h2>
     </Container>
   );
 }

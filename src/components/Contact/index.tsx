@@ -7,12 +7,13 @@ import {
   ContactIcon,
 } from "./styles";
 
-import SquareIcon from '../../assets/square.svg';
+import { SectionTitle } from "../SectionTitle";
 
 export function Contact() {
   return(
-    <ContactContainer id="contact">
-      <h2><img src={SquareIcon}/> Contato</h2>
+    <ContactContainer>
+      <SectionTitle title="Contato" positionAlignText="center"/>
+
 
         <p>Fique a vontade para entrar em contato comigo, será um prazer atende-lo.</p>
         <p>Estou disponível todos.</p>

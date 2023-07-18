@@ -8,8 +8,7 @@ import {
 } from "react-icons/ai";
 
 export const ContactContainer = styled.div`
-    position: relative;
-
+    padding: 0 9rem;
     h2 {
       display: flex;
       align-self: center;

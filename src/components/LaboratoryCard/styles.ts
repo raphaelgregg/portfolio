@@ -32,8 +32,15 @@ export const ContainerLaboratoryCard = styled.div`
     grid-gap: .5rem;
 
     span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
       font-size: .75rem;
-      padding: 4px 15px;
+      padding: 4px 8px;
+
+      width: fit-content;
+      max-width: 100%;
       
       border: solid 2px ${({theme}) => theme.COLORS.BLUE_500};
       border-radius: 15px;

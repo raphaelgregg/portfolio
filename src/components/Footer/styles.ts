@@ -5,7 +5,7 @@ export const FooterContainer = styled.header`
   align-items: center;
   justify-content: center;
   
-  height: 80px;
+  height: 110px;
   /* position: absolute; */
   bottom: 0;
 
@@ -13,5 +13,5 @@ export const FooterContainer = styled.header`
 
   background-color:  ${({theme}) => theme.COLORS.GREEN_900};
 
-  border-bottom: 3px solid ${({theme}) => theme.COLORS.BLUE_500}
+  border-bottom: 4px solid ${({theme}) => theme.COLORS.BLUE_500}
 `;

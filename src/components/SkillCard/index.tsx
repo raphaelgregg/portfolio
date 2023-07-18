@@ -6,7 +6,7 @@ interface SkillProps {
   alt?: string;
 }
 
-export function Skill({title, icon, alt}: SkillProps) {
+export function SkillCard({title, icon, alt}: SkillProps) {
   return(
     <Container>
       <h5>{title}</h5>
