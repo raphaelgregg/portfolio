@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width:980px;
+    
+    margin-bottom: 10rem;
+
 
     div.icon-wrapper {
       display: flex;

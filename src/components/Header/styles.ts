@@ -2,9 +2,14 @@ import styled from  'styled-components'
 
 export const HeaderContainer = styled.header`
   display: flex;
-  align-items: center;
+  align-self: center;
   justify-content: space-between;
-  padding: 2.5rem 7rem;
+
+  width: 100%;
+  max-width: 980px;
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 
   img {
     width: 12rem;

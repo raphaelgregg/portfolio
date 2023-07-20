@@ -8,41 +8,52 @@ import {
 } from "react-icons/ai";
 
 export const ContactContainer = styled.div`
-    padding: 0 9rem;
-    h2 {
-      display: flex;
-      align-self: center;
-      justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
 
-      font-weight: 500;
-      margin-bottom: 3rem;
-    }
+  width: 100%;
+  max-width:980px;
     
-    img {
-      width: .75rem;
-      margin-right: .8rem;
-    }
+  margin-bottom: 10rem;
 
-    p {
-      color: ${({theme}) => theme.COLORS.GREY_100};
-      font-size: 1.15rem;
-      line-height: 2.5rem;
-    }
+  h2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
 
-    margin-bottom: 4rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+    
+  img {
+    width: .75rem;
+    margin-right: .8rem;
+  }
+
+  p {
+    color: ${({theme}) => theme.COLORS.GREY_100};
+    font-size: 1.15rem;
+    line-height: 2.5rem;
+  }
 `;
 
 export const ContactWrapper = styled.div`
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
-    gap: 2rem;
+  justify-items: space-between;
 
-    div {
-      display: flex;
-      align-items: center;
-    }
+  background-color: red;
+
+  gap: 2rem;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const MailIcon = styled(AiOutlineMail)`

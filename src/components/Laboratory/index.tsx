@@ -3,9 +3,13 @@ import { LaboratoryContainer, LaboratoryListCad } from "./styles";
 import { LaboratoryCard } from "../LaboratoryCard";
 import { SectionTitle } from "../SectionTitle";
 
-export function Laboratory() {
+interface LaboratoryProps {
+  id: string;
+}
+
+export function Laboratory({id}: LaboratoryProps) {
   return(
-    <LaboratoryContainer>
+    <LaboratoryContainer id={id}>
       <SectionTitle title="Laboratório" positionAlignText="center"/>
 
       <LaboratoryListCad>

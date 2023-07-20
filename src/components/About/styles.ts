@@ -6,13 +6,20 @@ import {
 } from "react-icons/ai";
 
 export const AboutContainer = styled.div`
+  background-color: ${({theme}) => theme.COLORS.GREEN_500};
+  margin-bottom: 10rem;
+`;
+
+export const AboutContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;    
-  /* background-color: ${({theme}) => theme.COLORS.GREEN_500}; */
+  grid-gap: 2rem;
+  
+  width: 100%;
+  max-width: 980px;
 
-  background-color: ${({theme}) => theme.COLORS.GREEN_500};
-  padding: 3rem 7rem;
+  margin: auto;
+  padding: 4rem 0;
 `;
 
 export const UserProfileContent = styled.div`
@@ -71,7 +78,7 @@ color: ${({theme}) => theme.COLORS.BLUE_500};
 font-size: 2rem;
 `;
 
-export const AboutContent = styled.div`
+export const AboutWrapper = styled.div`
   h3 {
     margin-bottom: 1.5rem;
     font-weight: 500;

@@ -1,8 +1,5 @@
 import { 
-  Container, 
   HomeContainer,
-  DefaultWrapper, 
-  AboutWrapper
 } from './styles';
 
 import { About } from '../../components/About'
@@ -14,9 +11,8 @@ import devIcon from '../../assets/dev-icon.svg'
 export function Home(){
   
   return(
-    <Container>
-      <DefaultWrapper id="home">
-        <HomeContainer>
+    <>
+        <HomeContainer id="home">
             <div>
             <p className='emphasis'>Desenvolvedor Front-End</p>
             <h1>Raphael Gregg</h1>
@@ -26,23 +22,11 @@ export function Home(){
             </div>
             <img src={devIcon} />
         </HomeContainer>
-      </DefaultWrapper>
 
-      <AboutWrapper id="about" >
-        <About />
-      </AboutWrapper>
-
-      <DefaultWrapper id="skill">
-        <Skill />
-      </DefaultWrapper>
-
-      <DefaultWrapper id="laboratory">
-        <Laboratory />
-      </DefaultWrapper>
-
-      <DefaultWrapper id="contact">
-        <Contact />
-      </DefaultWrapper>
-    </Container>
+        <About id="about" />
+        <Skill id="skill" />
+        <Laboratory id="laboratory" />
+        <Contact id="contact" />
+    </>
   )
 }

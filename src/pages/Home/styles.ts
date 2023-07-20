@@ -1,23 +1,17 @@
-import styled from 'styled-components'
-
-export const Container = styled.div`
-`;
-
-export const DefaultWrapper = styled.div`
-    padding: 5rem 7rem;
-`;
-export const AboutWrapper = styled.div`
-    height: 100vh;
-
-    display: flex;
-    align-items: center;
-`;
+import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+    max-width: 980px;
+
+    margin: auto;
+
     height: calc(100vh - 13rem);
+
     
     div {
         max-width: 500px;

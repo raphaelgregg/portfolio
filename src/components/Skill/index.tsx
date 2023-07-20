@@ -3,9 +3,13 @@ import { SkillsContainer } from "./styles";
 import { SectionTitle } from "../SectionTitle";
 import { SkillCard } from "../SkillCard";
 
-export function Skill() {
+interface SkillProps {
+  id: string;
+}
+
+export function Skill({id}: SkillProps) {
   return(
-    <SkillsContainer>
+    <SkillsContainer id={id}>
       <SectionTitle title="Habilidades" positionAlignText="center"/>
       
       <div className="icon-wrapper">

@@ -9,9 +9,13 @@ import {
 
 import { SectionTitle } from "../SectionTitle";
 
-export function Contact() {
+interface ContactProps {
+  id: string;
+}
+
+export function Contact({id}: ContactProps) {
   return(
-    <ContactContainer>
+    <ContactContainer id={id}>
       <SectionTitle title="Contato" positionAlignText="center"/>
 
 
