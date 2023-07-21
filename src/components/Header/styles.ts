@@ -12,16 +12,30 @@ export const HeaderContainer = styled.header`
 
   img {
     width: 20.8rem;
+    margin-left: 20px;
+    padding: 15px 0;
   }
 
-  ul {
+  div.menu-section {
+  }
+
+  nav, ul {
     display: flex;
     align-items: center;
-    gap: 9.6rem;
-
+    height:100%;
+    width: 100%;
+  }
+  
+  li {
+    margin: 0 3rem;
+    
+    
     a {
-      font-size: 1.6rem;
+      /* background-color: blue; */
       color: ${({theme}) => theme.COLORS.GREY_100};
+      font-size: 1.4rem;
+      padding: 1rem 2.4rem;
+      /* transition: all 250ms linear 0s; */
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
@@ -35,3 +49,4 @@ export const HeaderContainer = styled.header`
     }
   }
 `;
+

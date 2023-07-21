@@ -12,7 +12,7 @@ export function Home(){
   
   return(
     <>
-        <HomeContainer id="home">
+        <HomeContainer id="home" >
             <div>
             <p className='emphasis'>Desenvolvedor Front-End</p>
             <h1>Raphael Gregg</h1>
