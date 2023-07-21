@@ -6,24 +6,16 @@ export const LaboratoryContainer = styled.div`
   align-self: center;
   justify-content: space-between;
 
-  width: 100%;
+  width: 90%;
   max-width:980px;
     
-  margin-bottom: 10rem;
-
-  h2 {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-      
-    font-weight: 500;
-  }
+  margin-bottom: 16rem;
 `;
 
 export const LaboratoryListCad = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
-  grid-gap: 1rem;
+  grid-gap: 1.6rem;
   
   justify-items: center;
 `;

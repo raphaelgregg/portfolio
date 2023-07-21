@@ -5,15 +5,21 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
   }
 
   html {
+    /* a cada 1rem será considerado 10px */
+    font-size: 62.5%;
     scroll-behavior: smooth;
   }
 
   body {
     background-color: ${({theme}) => theme.COLORS.GREEN_800};
     color: #f5f5f5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.6rem;
   }
 
   body, input, button {
@@ -24,6 +30,10 @@ export const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   a{
@@ -42,5 +52,12 @@ export const GlobalStyle = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: ${({theme}) => theme.COLORS.BLUE_500};
     border-radius: 10px;
+  }
+
+  /** Media queries */
+  @media (max-width: 768px) {
+    html {
+      font-size: 50%;
+    }
   }
 `;

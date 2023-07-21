@@ -20,7 +20,7 @@ export function Contact({id}: ContactProps) {
 
 
         <p>Fique a vontade para entrar em contato comigo, será um prazer atende-lo.</p>
-        <p>Estou disponível todos.</p>
+        <p>Estou disponível todos os dias.</p>
 
         <div>
           <ContactWrapper>

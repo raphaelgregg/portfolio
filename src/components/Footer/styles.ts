@@ -7,12 +7,15 @@ export const FooterContainer = styled.header`
   
   width: 100%;
 
-  margin-top: 3rem;
-  padding: 3rem;
+  padding: 3.4rem;
 
   bottom: 0;
 
   background-color:  ${({theme}) => theme.COLORS.GREEN_900};
 
   border-bottom: 4px solid ${({theme}) => theme.COLORS.BLUE_500};
+
+  span {
+    font-size: 1.4rem;
+  }
 `;

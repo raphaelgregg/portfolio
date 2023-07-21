@@ -8,10 +8,7 @@ export const Container = styled.div`
     justify-content: center;
 
     font-weight: 400;
-    margin-bottom: .75rem;
-  }
-
-  img {
-    width: 5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
   }
 `;

@@ -13,13 +13,13 @@ export const AboutContainer = styled.div`
 export const AboutContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;
+  grid-gap: 3.2rem;
   
-  width: 100%;
+  width: 90%;
   max-width: 980px;
 
   margin: auto;
-  padding: 4rem 0;
+  padding: 6.4rem 0;
 `;
 
 export const UserProfileContent = styled.div`
@@ -28,21 +28,25 @@ export const UserProfileContent = styled.div`
   justify-content: flex-start;
   flex-direction: column;
 
-  margin-top: 2.5rem;
+  margin-top: 4rem;
 
   div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    h2 {
+    font-size: 2rem;
+    }
   }
 
   div.wrapper-icon {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 1.4rem;
+      grid-gap: 2.40rem;
 
-      margin-top: 1rem;
+      margin-top: 1.6rem;
     }
 `;
 
@@ -50,48 +54,45 @@ export const Avatar = styled.div`
   border: 4px solid ${({theme}) => theme.COLORS.BLUE_500};
   border-radius: 100%;
 
-  padding: 0.5rem;
-  margin-bottom: 2rem;
+  padding: 0.8rem;
+  margin-bottom: 3.2rem;
 
   img {
-    width: 200px;
+    width: 20rem;
     border-radius: 100%;
-  }
-
-  h2{
-    margin-top: 2rem;
   }
 `;
 
 export const MailIcon = styled(AiOutlineMail)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
+font-size: 3.2rem;
 `;
 
 export const LinkinIcon = styled(AiOutlineLinkedin)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
+font-size: 3.2rem;
 `;
 
 export const GitIcon = styled(AiFillGithub)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
+font-size: 3.2rem;
 `;
 
 export const AboutWrapper = styled.div`
   h3 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
 
   img {
-    width: .75rem;
-    margin-right: .8rem;
+    width: 1.2rem;
+    margin-right: 1.28rem;
   }
 
   p {
     color: ${({theme}) => theme.COLORS.GREY_100};
-    font-size: 1.15rem;
-    line-height: 1.8rem;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
   }
 `;

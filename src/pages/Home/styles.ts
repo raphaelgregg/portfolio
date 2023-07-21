@@ -5,35 +5,35 @@ export const HomeContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
+    width: 90%;
     max-width: 980px;
 
     margin: auto;
 
-    height: calc(100vh - 13rem);
+    height: calc(100vh - 20.6rem);
 
     
     div {
         max-width: 500px;
 
         h1 {
-            font-size: 2.5rem;
-            line-height: 2rem;
-            letter-spacing: 0.25rem;
-            margin-bottom: 1.5rem;
+            font-size: 4rem;
+            line-height: 3.2rem;
+            letter-spacing: .4rem;
+            margin-bottom: 2.4rem;
             font-weight: 500;
         }
 
         p.emphasis {
             color: ${({theme}) => theme.COLORS.BLUE_500};
-            font-size: 1.1rem;
-            margin-bottom: .75rem;
+            font-size: 1.76rem;
+            margin-bottom: 1.2rem;
         }
 
         p {
-            font-size: 1.125rem;
-            line-height: 1.5rem;
-            margin-bottom: 0.5rem;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            margin-bottom: 0.8rem;
             color: ${({theme}) => theme.COLORS.GREY_100};
         }
 
@@ -44,21 +44,21 @@ export const HomeContainer = styled.div`
             border: 1px solid ${({theme}) => theme.COLORS.BLUE_500};
             border-radius: 3px;
             
-            margin-top: 4rem;
-            padding: .75rem 4rem;
+            margin-top: 6.4rem;
+            padding: 1.2rem 6.4rem;
 
-            font-size: 1.5rem;;
+            font-size: 2rem;;
             
             &:hover {
                 background-color: ${({theme}) => theme.COLORS.BLUE_500};
                 color: ${({theme}) => theme.COLORS.GREY_900};
-                transition: .8s;
+                transition: .7s;
             }
         }
     }
 
     img {
         width: 100%;
-        max-width: 400px;
+        max-width: 340px;
     }
 `;

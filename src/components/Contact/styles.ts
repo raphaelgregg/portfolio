@@ -13,69 +13,59 @@ export const ContactContainer = styled.div`
   align-self: center;
   justify-content: space-between;
 
-  width: 100%;
+  width: 90%;
   max-width:980px;
     
-  margin-bottom: 10rem;
-
-  h2 {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-
-    font-weight: 500;
-    margin-bottom: 3rem;
-  }
-    
-  img {
-    width: .75rem;
-    margin-right: .8rem;
-  }
+  margin-bottom: 16rem;
+ 
 
   p {
     color: ${({theme}) => theme.COLORS.GREY_100};
-    font-size: 1.15rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
   }
 `;
 
 export const ContactWrapper = styled.div`
-  margin-top: 3rem;
+  margin-top: 4.4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
   justify-items: space-between;
 
-  background-color: red;
-
-  gap: 2rem;
+  gap: 3.2rem;
 
   div {
     display: flex;
     align-items: center;
+
+    a{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
   }
 `;
 
 export const MailIcon = styled(AiOutlineMail)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
-margin-right: 1rem;
+font-size: 2.2rem;
+margin-right: 1.6rem;
 `;
 
 export const LinkinIcon = styled(AiOutlineLinkedin)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
-margin-right: 1rem;
+font-size: 2.2rem;
+margin-right: 1.6rem;
 `;
 
 export const GitIcon = styled(AiFillGithub)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
-margin-right: 1rem;
+font-size: 2.2rem;
+margin-right: 1.6rem;
 `;
 
 export const ContactIcon = styled(AiFillContacts)`
 color: ${({theme}) => theme.COLORS.BLUE_500};
-font-size: 2rem;
-margin-right: 1rem;
+font-size: 2.2rem;
+margin-right: 1.6rem;
 `;

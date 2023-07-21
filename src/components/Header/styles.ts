@@ -5,32 +5,22 @@ export const HeaderContainer = styled.header`
   align-self: center;
   justify-content: space-between;
 
-  width: 100%;
+  width: 90%;
+  height: 8rem;
+
   max-width: 980px;
 
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-
   img {
-    width: 12rem;
+    width: 20.8rem;
   }
 
   ul {
     display: flex;
-    gap: 6rem;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    gap: 9.6rem;
 
     a {
-      width: 100%;
-      height: 2rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       color: ${({theme}) => theme.COLORS.GREY_100};
 
       border-top: 3px solid transparent;

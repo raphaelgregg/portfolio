@@ -9,8 +9,8 @@ export const Container = styled.div<ContainerProps>`
   justify-content: ${ props => props.positionAlignText};
 
   img {
-    width: .75rem;
-    margin-right: .8rem;
+    width: 1.125rem;
+    margin-right: 1.2rem;
   }
 
   h2 {
@@ -19,6 +19,7 @@ export const Container = styled.div<ContainerProps>`
     justify-content: center;
 
     font-weight: 500;
-    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
   }
 `;

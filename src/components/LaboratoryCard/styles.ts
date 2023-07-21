@@ -6,8 +6,8 @@ export const ContainerLaboratoryCard = styled.div`
 
   align-items: center;
 
-  max-width: 21.25rem;
-  min-height: 18.75rem;
+  max-width: 34.8rem;
+  min-height: 30rem;
   height: auto;
 
   background-color: ${({theme}) => theme.COLORS.GREEN_500};
@@ -16,27 +16,29 @@ export const ContainerLaboratoryCard = styled.div`
 
 
   h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
 
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
     color: ${({theme}) => theme.COLORS.GREY_100};
   }
 
   div {
-    margin-bottom: 2rem;
+    margin-bottom: 3.2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5rem;
+    grid-gap: .8rem;
 
     span {
       display: flex;
       align-items: center;
       justify-content: center;
       
-      font-size: .75rem;
+      font-size: 1.2rem;
       padding: 4px 8px;
 
       width: fit-content;
@@ -52,7 +54,9 @@ export const ContainerLaboratoryCard = styled.div`
 
   button {
       width: 100%;
-      padding: 1rem;
+      padding: 1.6rem;
+
+      font-size: 1.6rem;
       
       border: none;
       border-radius: 4px;
@@ -61,5 +65,5 @@ export const ContainerLaboratoryCard = styled.div`
       background-color: ${({theme}) => theme.COLORS.GREEN_800};
   }
 
-  padding: 1.25rem 1.75rem 2rem;
+  padding: 2rem 2rem 3.2rem;
 `;
