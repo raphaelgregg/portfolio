@@ -69,13 +69,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   /** Media queries */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     html {
       font-size: 50%;
     }
-  }
+  } */
 
-  @media (max-width: 630px) {
+  /* @media (max-width: 630px) {
     #home {
      flex-direction: column;
      text-align: center;
@@ -86,18 +86,29 @@ export const GlobalStyle = createGlobalStyle`
       order: -1;
       width: 280px;
     }
-  }
+  } */
   
-  @media (max-width: 540px) {
+  /* @media (max-width: 540px) {
     
-  }
+  } */
 
-  @media(max-width: 900px) {
+  @media(max-width: 730px) {
       .mobile {
         display: initial;
       }
-      > nav {
+      
+      nav.desktop {
+        display: none !important;
+      }
+    }
+
+    @media(min-width: 730px) {
+      .mobile {
         display: none;
       }
+      
+      /* nav.desktop {
+        display: none !important;
+      } */
     }
 `;

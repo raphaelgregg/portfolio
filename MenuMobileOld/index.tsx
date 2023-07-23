@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {ContainerMenuMobile} from './styles';
 import {IoClose} from 'react-icons/io5';
 
@@ -7,12 +7,14 @@ interface MenuMobileProps {
   setMenuIsVisible: boolean;
 }
 
-export function MenuMobile() {
-  // const [menuIsVisible, setMenuIsVisible] = useState(true);
+export function MenuMobile({menuIsVisible, setMenuIsVisible}: MenuMobileProps) {
+  useEffect(() => {
+    document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
+  }, [menuIsVisible]);
   
   return (
-    <ContainerMenuMobile >
-      <IoClose size={45} />
+    <ContainerMenuMobile isVisible={menuIsVisible} >
+      <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
       <nav>
         <ul>
             <li><a href="#about">Sobre</a></li>

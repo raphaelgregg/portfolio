@@ -8,10 +8,11 @@ import { Laboratory } from '../../components/Laboratory';
 import { Contact } from '../../components/Contact'
 
 import devIcon from '../../assets/dev-icon.svg'
+
 export function Home(){
-  
   return(
     <>
+
         <HomeContainer id="home" >
             <div>
             <p className='emphasis'>Desenvolvedor Front-End</p>

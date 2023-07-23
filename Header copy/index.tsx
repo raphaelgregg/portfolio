@@ -1,25 +1,21 @@
 import { HeaderContainer } from './styles'
 import brandIcon from '../../assets/brand.svg'
 import { useState } from 'react';
-import { HeaderMenuMobile } from '../HeaderMenuMobile';
-import { RiMenu3Fill } from 'react-icons/ri';
+import { MenuMobile } from '../MenuMobileOld';
 
 export function Header() {
-  const [menuIsVisible, setMenuIsVisible] = useState(false);
+  const [menuIsVisible, setMenuIsVisible] = useState(true);
 
   return (
     <>
-    <HeaderMenuMobile
+    <MenuMobile
       menuIsVisible={menuIsVisible}
       setMenuIsVisible={setMenuIsVisible}
     />
     <HeaderContainer>
+      <img src={brandIcon} alt="logo" />
         <section>
-          <img src={brandIcon} alt="logo" />
-        </section>
-
-        <section>
-          <nav className='desktop'>
+          <nav>
             <ul>
               <li><a href="#about">Sobre</a></li>
               <li><a href="#skill">Skills</a></li>
@@ -27,7 +23,6 @@ export function Header() {
               <li><a href="#contact">Contato</a></li>
             </ul>
           </nav>
-          <RiMenu3Fill onClick={() => setMenuIsVisible(true)} className="mobile"/>  
         </section>
     </HeaderContainer>
     </>
