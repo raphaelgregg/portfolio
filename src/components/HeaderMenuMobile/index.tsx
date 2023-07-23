@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import {ContainerMenuMobile} from './styles';
 import {IoClose} from 'react-icons/io5';
 
 interface HeaderMenuMobileProps {
   menuIsVisible: boolean;
-  setMenuIsVisible: boolean;
+  setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export function HeaderMenuMobile({menuIsVisible, setMenuIsVisible}: HeaderMenuMobileProps) {
@@ -14,6 +14,7 @@ export function HeaderMenuMobile({menuIsVisible, setMenuIsVisible}: HeaderMenuMo
   
   return (
     <ContainerMenuMobile isVisible={menuIsVisible} >
+      
       <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
       <nav>
         <ul>
