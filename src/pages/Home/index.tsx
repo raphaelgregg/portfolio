@@ -15,7 +15,7 @@ export function Home(){
 
         <HomeContainer id="home" >
             <div>
-            <p className='emphasis'>Desenvolvedor Front-End</p>
+            <span className='emphasis'>Desenvolvedor Front-End</span>
             <h1>Raphael Gregg</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, architecto neque. Illo odio, voluptate corporis inventore nesciunt dolore officiis reiciendis dolorem quasi quae tenetur aliquid! Blanditiis repellat molestiae libero commodi!</p>
 

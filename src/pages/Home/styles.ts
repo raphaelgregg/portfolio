@@ -17,18 +17,18 @@ export const HomeContainer = styled.div`
     div {
         max-width: 500px;
 
+        span {
+            color: ${({theme}) => theme.COLORS.BLUE_500};
+            font-size: 1.76rem;
+            margin-bottom: 1.2rem;
+        }
+
         h1 {
             font-size: 4rem;
             line-height: 3.2rem;
             letter-spacing: .4rem;
             margin-bottom: 2.4rem;
             font-weight: 500;
-        }
-
-        p.emphasis {
-            color: ${({theme}) => theme.COLORS.BLUE_500};
-            font-size: 1.76rem;
-            margin-bottom: 1.2rem;
         }
 
         p {
