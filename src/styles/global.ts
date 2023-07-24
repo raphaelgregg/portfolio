@@ -114,6 +114,17 @@ export const GlobalStyle = createGlobalStyle`
       }
     }
 
+    @media(max-width: 425px) {
+      #home {
+        justify-content: flex-start;
+
+        > img {
+          margin: 8rem auto;
+          margin-bottom: 10rem;
+        }
+      }
+    }
+
     @media(min-width: 730px) {
       .mobile {
         display: none;
