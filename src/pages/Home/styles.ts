@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +8,7 @@ export const HomeContainer = styled.div`
     width: 90%;
     max-width: 980px;
 
-    
-    height: calc(100vh - 20.6rem);
+    height: calc(100vh - 10rem);
     
     margin: auto;
     margin-bottom: 6rem;
