@@ -69,36 +69,48 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   /** Media queries */
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     html {
       font-size: 50%;
     }
-  } */
+  }
 
-  /* @media (max-width: 630px) {
+  @media (max-width: 630px) {
     #home {
      flex-direction: column;
+     justify-content: space-evenly;
      text-align: center;
-     margin: 4.4rem;
+     height: 100vh;
     }
 
     #home img {
       order: -1;
       width: 280px;
     }
-  } */
+  }
   
   /* @media (max-width: 540px) {
     
   } */
 
-  @media(max-width: 730px) {
-      .mobile {
-        display: initial;
-      }
-      
+  @media(max-width: 730px) {      
       nav.desktop {
         display: none !important;
+      }
+
+      #about {
+        > div {
+          grid-template-columns: 1fr;
+          justify-items: center;
+
+        }
+      }
+
+      #contact {
+        div {
+          grid-template-columns: 1fr;
+
+        }
       }
     }
 
@@ -106,9 +118,5 @@ export const GlobalStyle = createGlobalStyle`
       .mobile {
         display: none;
       }
-      
-      /* nav.desktop {
-        display: none !important;
-      } */
     }
 `;

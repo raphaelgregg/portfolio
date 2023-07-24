@@ -8,10 +8,11 @@ export const HomeContainer = styled.div`
     width: 90%;
     max-width: 980px;
 
-    margin: auto;
-
+    
     height: calc(100vh - 20.6rem);
-
+    
+    margin: auto;
+    margin-bottom: 6rem;
     
     div {
         max-width: 500px;
