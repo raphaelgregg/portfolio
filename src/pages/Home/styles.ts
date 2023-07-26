@@ -44,7 +44,7 @@ export const HomeContainer = styled.section`
             border: 1px solid ${({theme}) => theme.COLORS.BLUE_500};
             border-radius: 3px;
             
-            margin-top: 6.4rem;
+            margin: 6.4rem auto;
             padding: 1.2rem 6.4rem;
 
             font-size: 2rem;;

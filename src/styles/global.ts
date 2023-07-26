@@ -119,7 +119,9 @@ export const GlobalStyle = createGlobalStyle`
         justify-content: flex-start;
 
         height:100%;
-        /* max-height: calc(100vh - 10rem) ; */
+        max-height: 100vh;
+
+        background-color: red;;
 
         > img {
           margin: 10rem auto;
