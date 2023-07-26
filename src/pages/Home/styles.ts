@@ -58,7 +58,7 @@ export const HomeContainer = styled.section`
     }
 
     img {
-        width: 100%;
-        max-width: 320px;
+        width: auto;
+        max-width: 32rem;
     }
 `;

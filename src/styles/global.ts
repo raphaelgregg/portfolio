@@ -115,11 +115,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     @media(max-width: 425px) {
+      body {
+        height: 100%;
+        max-height: 100vh;
+      }
+
       #home {
         justify-content: flex-start;
 
         height:100%;
-        max-height: 100vh;
 
         > img {
           margin: 10rem auto;
