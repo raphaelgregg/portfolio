@@ -121,8 +121,6 @@ export const GlobalStyle = createGlobalStyle`
         height:100%;
         max-height: 100vh;
 
-        background-color: red;;
-
         > img {
           margin: 10rem auto;
           margin-bottom: 10rem;
