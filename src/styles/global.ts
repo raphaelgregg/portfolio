@@ -55,6 +55,10 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 3.8rem;
   }
 
+  :target {
+    scroll-margin-top: 3.2rem;
+  }
+
   ::-webkit-scrollbar {
     width: 2px;
   }
