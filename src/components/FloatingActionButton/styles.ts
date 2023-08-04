@@ -6,7 +6,7 @@ export const FloatingActionButtonContainer = styled.div`
   bottom: 0;
   right: 0;
 
-  margin: 3rem 2rem ;
+  margin: 8rem 4rem ;
 
   a {
 
