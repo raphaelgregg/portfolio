@@ -11,28 +11,24 @@ export const ContactContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-self: center;
-  justify-content: space-between;
 
   width: 90%;
   max-width:980px;
     
-  margin-bottom: 16rem;
- 
-
+  padding: 0 10rem;
+  margin-bottom: 10rem;
+  
   p {
     color: ${({theme}) => theme.COLORS.GREY_100};
     font-size: 1.6rem;
     line-height: 2.6rem;
-    
   }
   `;
 
 export const ContactWrapper = styled.div`
-  margin-top: 4.4rem;
+  margin-top: 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  justify-items: space-between;
 
   gap: 3.2rem;
 
