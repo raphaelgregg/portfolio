@@ -6,6 +6,7 @@ import { About } from '../../components/About'
 import { Skill } from '../../components/Skill';
 import { Laboratory } from '../../components/Laboratory';
 import { Contact } from '../../components/Contact'
+import { FloatingActionButton } from '../../components/FloatingActionButton';
 
 import devIcon from '../../assets/dev-icon.svg'
 
@@ -28,6 +29,8 @@ export function Home(){
         <Skill id="skill" />
         <Laboratory id="laboratory" />
         <Contact id="contact" />
+        <FloatingActionButton />
+
     </>
   )
 }
