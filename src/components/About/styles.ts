@@ -19,7 +19,7 @@ export const AboutContent = styled.div`
   max-width: 980px;
 
   margin: auto;
-  padding: 6.4rem 0;
+  padding: 3.2rem 0;
 `;
 
 export const UserProfileContent = styled.div`

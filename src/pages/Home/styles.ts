@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.section`
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,10 +9,10 @@ export const HomeContainer = styled.section`
     width: 90%;
     max-width: 980px;
 
-    height: calc(100vh - 10rem);
+    height: 100vh;
+    top:-4rem;
     
     margin: auto;
-    margin-bottom: 6rem;
     
     div {
         max-width: 500px;
@@ -19,7 +20,6 @@ export const HomeContainer = styled.section`
         span {
             color: ${({theme}) => theme.COLORS.BLUE_500};
             font-size: 1.76rem;
-            margin-bottom: 1.2rem;
         }
 
         h1 {
@@ -27,6 +27,7 @@ export const HomeContainer = styled.section`
             line-height: 3.2rem;
             letter-spacing: .4rem;
             margin-bottom: 2.4rem;
+            margin-top: 1rem;
             font-weight: 500;
         }
 
