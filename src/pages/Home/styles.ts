@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,13 +8,19 @@ export const HomeContainer = styled.div`
     width: 90%;
     max-width: 980px;
 
+    height: calc(100vh - 10rem);
+    
     margin: auto;
-
-    height: calc(100vh - 20.6rem);
-
+    margin-bottom: 6rem;
     
     div {
         max-width: 500px;
+
+        span {
+            color: ${({theme}) => theme.COLORS.BLUE_500};
+            font-size: 1.76rem;
+            margin-bottom: 1.2rem;
+        }
 
         h1 {
             font-size: 4rem;
@@ -22,12 +28,6 @@ export const HomeContainer = styled.div`
             letter-spacing: .4rem;
             margin-bottom: 2.4rem;
             font-weight: 500;
-        }
-
-        p.emphasis {
-            color: ${({theme}) => theme.COLORS.BLUE_500};
-            font-size: 1.76rem;
-            margin-bottom: 1.2rem;
         }
 
         p {
@@ -44,7 +44,7 @@ export const HomeContainer = styled.div`
             border: 1px solid ${({theme}) => theme.COLORS.BLUE_500};
             border-radius: 3px;
             
-            margin-top: 6.4rem;
+            margin: 6.4rem auto;
             padding: 1.2rem 6.4rem;
 
             font-size: 2rem;;
@@ -58,7 +58,7 @@ export const HomeContainer = styled.div`
     }
 
     img {
-        width: 100%;
-        max-width: 320px;
+        width: auto;
+        max-width: 32rem;
     }
 `;

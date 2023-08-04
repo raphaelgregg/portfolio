@@ -7,7 +7,7 @@ import {
   AiFillContacts
 } from "react-icons/ai";
 
-export const ContactContainer = styled.div`
+export const ContactContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -23,8 +23,9 @@ export const ContactContainer = styled.div`
     color: ${({theme}) => theme.COLORS.GREY_100};
     font-size: 1.6rem;
     line-height: 2.6rem;
+    
   }
-`;
+  `;
 
 export const ContactWrapper = styled.div`
   margin-top: 4.4rem;

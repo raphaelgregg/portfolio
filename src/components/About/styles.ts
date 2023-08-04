@@ -5,7 +5,7 @@ import {
   AiFillGithub 
 } from "react-icons/ai";
 
-export const AboutContainer = styled.div`
+export const AboutContainer = styled.section`
   background-color: ${({theme}) => theme.COLORS.GREEN_500};
   margin-bottom: 10rem;
 `;
