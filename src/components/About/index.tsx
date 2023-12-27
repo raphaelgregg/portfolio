@@ -1,13 +1,13 @@
 import {
-  AboutContainer, 
+  AboutContainer,
   AboutContent,
-  UserProfileContent,
+  AboutWrapper,
   Avatar,
-  MailIcon,
-  LinkinIcon,
   GitIcon,
-  AboutWrapper
-} from './styles'
+  LinkinIcon,
+  MailIcon,
+  UserProfileContent
+} from './styles';
 
 import { SectionTitle } from '../SectionTitle';
 
@@ -28,15 +28,15 @@ export function About({id}: AboutProps) {
             <h2>Raphael Gregg</h2>
 
             <div className='wrapper-icon'>
-              <a href="raphaelgregg@gmail.com">
+              <a href="raphaelgregg@gmail.com" target='_blank'>
                 <MailIcon />
               </a>
 
-              <a href="https://github.com/raphaelgregg">
+              <a href="https://github.com/raphaelgregg" target='_blank'>
                 <GitIcon />
               </a>
 
-              <a href="https://linkedin.com/in/raphaelgregg/">
+              <a href="https://linkedin.com/in/raphaelgregg/" target='_blank'>
                 <LinkinIcon />
               </a>
             </div>
